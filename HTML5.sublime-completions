@@ -1,0 +1,18 @@
+{
+	"scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+
+	"completions":
+	[
+		{ "trigger": "section", "contents": "<section>$1</section>" },
+		{ "trigger": "article", "contents": "<article>$1</article>" },
+		{ "trigger": "header", "contents": "<header>$1</header>" },
+		{ "trigger": "aside", "contents": "<aside>$1</aside>" },
+		{ "trigger": "footer", "contents": "<footer>$1</footer>" },
+		{ "trigger": "nav", "contents": "<nav>$1</nav>" },
+		{ "trigger": "canvas", "contents": "<canvas>$1</canvas>" },
+
+		{ "trigger": "video", "contents": "<video>$1</video>" },
+		{ "trigger": "audio", "contents": "<audio>$1</audio>" }
+
+	]
+}
